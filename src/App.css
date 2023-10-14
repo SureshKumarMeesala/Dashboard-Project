@@ -1,0 +1,150 @@
+a{
+  text-decoration: none;
+}
+
+
+p {
+  margin: 0 !important;
+  /* margin-bottom: 1rem; */
+}
+div#app {
+  display: flex !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div#app {
+    display: block !important;
+  }
+}
+
+.profile-pic img{
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px
+}
+
+button#dropdown-basic {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  height: 63px;
+}
+
+.Dropdown-profile.dropdown {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-box {
+  display: flex;
+}
+
+.profile-name {
+  text-align: left;
+}
+
+.dropdown-toggle::after {
+  margin-top: 20px;
+}
+
+.profile-name p {
+  font-size: 12px;
+}
+
+.profile-name strong {
+  font-size: 12px;
+}
+
+.Sidebar-Profile {
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+
+/* .mobile-menu {
+  position: relative;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #efefef;
+  -webkit-transition: width,left,right,300ms;
+  transition: width,left,right,300ms;
+  width: 250px;
+  min-width: 250px;
+} */
+
+
+
+@media only screen and (min-width: 600px) {
+  .mobile-menu-toggle{
+    display: none;
+  }
+}
+
+.css-dip3t8 {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 3;
+  background-color: #040440 !important;
+}
+
+.ps-menu-button:hover {
+  background-color: #2d2d68 !important;
+  margin: 0px 20px;
+    border-radius: 5px;
+    color: #ffffff !important;
+    padding-left: 0px !important;
+}
+
+.ps-menu-button:active {
+  background-color: #2d2d68 !important;
+  margin: 0px 20px;
+    border-radius: 5px;
+    color: #ffffff !important;
+}
+
+.menu-toggle-desk span h5 {
+  color:  #ffffff !important;
+}

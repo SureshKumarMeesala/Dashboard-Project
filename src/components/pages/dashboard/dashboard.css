@@ -1,0 +1,154 @@
+
+
+.Dashboard-body {
+    width: 100% !important;
+    background: #f8f9fa;
+    height: 100vh !important;
+    padding: 20px;
+    overflow: auto;
+}
+
+.Dashboard-search{
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+
+.order-box {
+    display: flex;
+}
+
+
+.arrow-pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+  }
+
+  .document-pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+  }
+
+  .bag-pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+  }
+
+  .wallet-pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+  }
+
+  .arrow-pic{
+    
+    border-radius: 50%;
+    background-color: #daffeb;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+  .document-pic{
+    
+    border-radius: 50%;
+    background-color: #e7daff;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+  .bag-pic{
+   
+    border-radius: 50%;
+    background-color: #cbf2fe;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+  .wallet-pic {
+    
+    border-radius: 50%;
+    background-color: #ffbbe2;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+  .order-box{
+    background-color: #ffffff;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+  }
+
+  p.order-box-title {
+    font-size: 12px;
+}
+
+p.order-box-title {
+    font-size: 12px;
+}
+
+p.order-box-stat {
+    font-size: 12px;
+}
+
+.order-name {
+    padding-top: 15px;
+}
+
+.search-button{
+    position: absolute;
+    border: none;
+    color: #000000;
+}
+
+.search-button:hover{
+    background-color: rgba(255, 255, 255, .4);
+    color: #000000;
+
+     }
+
+     .search-button:focus-visible   {
+        background-color: rgba(255, 255, 255, .4);
+        color: #000000;
+    
+         }
+
+         .search-button:active   {
+            background-color: rgba(255, 255, 255, .4);
+            color: #000000;
+        
+             }
+  
+             .search-button:first-child:active  {
+                background-color: rgba(255, 255, 255, .4);
+                color: #000000;
+            
+                 }
+    
+.form-control{
+    padding-left: 10px;
+}
+
+::placeholder {
+    padding-left: 30px;
+  }
+
+  .Chart-div{
+    height: 300px !important;
+  }
+
+  .recharts-responsive-container {
+    height: 250px !important;
+}
+
+.Doughnut-newusers{
+    margin-bottom: 20px;
+}
