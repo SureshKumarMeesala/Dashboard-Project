@@ -146,6 +146,11 @@ p.order-box-stat {
     margin-top: 30px;
   }
 
+  .inventory-div{
+    margin-top: 80px;
+
+  }
+
   .recharts-responsive-container {
     height: 250px !important;
 }
@@ -157,20 +162,20 @@ p.order-box-stat {
 .col-sm-8 {
   background: #fff;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   width: 64% !important;
 }
 
 .col-sm-4{
   background: #fff;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   width: 30% !important;
 }
 
 .Chart-Row{
   display: flex;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .Chart-Header{
@@ -199,4 +204,31 @@ p.order-box-stat {
 
 .Chart-Dropdown-body{
   height: 50px;
+}
+
+.Profile-Heading-Line{
+  font-weight: 600;
+}
+
+.Overview-Title {
+  font-weight: 700;
+    font-size: 18px;
+}
+
+.Overview-SubTitle{
+  font-size: 15px;
+}
+
+.inventory-col{
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+hr.Divider {
+  
+  width: 130% !important;
+  margin-left: -200px !important;
+  border: 2px solid #f8f9fa !important;
 }

@@ -37,7 +37,7 @@ export default function Dashboard() {
     
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#" className='Profile-Heading-Line'>Hello Suresh</Navbar.Brand>
         <Navbar.Collapse id="navbarScroll" className='Dashboard-search'>
           <Form className="d-flex">
           <Button variant="outline-success" className='search-button'>{<SearchIcon />}</Button>
@@ -109,8 +109,8 @@ export default function Dashboard() {
         <Col sm={8}>
           <Row className='Chart-Header'>
             <Col>
-            <p>Overview</p>
-            <p>Monthly Earnings</p>
+            <p className='Overview-Title'>Overview</p>
+            <p className='Overview-SubTitle'>Monthly Earnings</p>
             </Col>
             <Col style={{display: "contents"}}>
             <Dropdown className='Chart-Dropdown-body'>
@@ -132,14 +132,63 @@ export default function Dashboard() {
         <Col sm={4}>
         <Row className='Chart-Header'>
             <Col>
-            <p>Customers</p>
-            <p>Custopmers that buy Products</p>
+            <p className='Overview-Title' >Customers</p>
+            <p className='Overview-SubTitle' >Custopmers that buy Products</p>
             </Col>
           </Row>
           <Doughnutchart/>
           </Col>
       </Row>
     </Container>
+
+
+    <Container className='inventory-div'>
+      <Row className='inventory-Row'>
+        <Col className='inventory-col'>
+          <Row className='Chart-Header'>
+            <Col>
+            <p className='Overview-Title'>Product Sell</p>
+            </Col>
+            <Col style={{display: "inline-grid", alignItems: 'center'}}>
+              <Navbar>
+                <Container fluid>
+                  <Navbar.Collapse id="navbarScroll" className='Dashboard-search'>
+                        <Form className="d-flex">
+                        <Button variant="outline-success" className='search-button'>{<SearchIcon />}</Button>
+                          <Form.Control
+                            type="search"
+                            placeholder="Search"
+                            className="me-2"
+                            aria-label="Search"
+                            
+                          />
+                          
+                        </Form>
+                  </Navbar.Collapse>
+               </Container>
+            </Navbar>
+            </Col>
+            <Col style={{display: "contents"}}>
+            <Dropdown className='Chart-Dropdown-body'>
+                <Dropdown.Toggle variant="success" id="dropdown-basic" className='Chart-Dropdown'>
+                  Last 30 days
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Quarter 1</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Quarter 2</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Quarter 3</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Quarter 4</Dropdown.Item>
+                </Dropdown.Menu>
+            </Dropdown>
+            </Col>
+          </Row>
+          <hr className='Divider'/>
+         <Barchart />
+        </Col>
+      </Row>
+    </Container>
+
 
     </div>
     
