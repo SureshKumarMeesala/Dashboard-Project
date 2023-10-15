@@ -77,7 +77,7 @@ export default function Sidebar1() {
 
         <div className='Sidebar-Profile'> 
         <Dropdown className='Dropdown-profile'>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle variant="success" id="dropdown-basic" className='Sidebar-Dropdown'>
                 <div className="profile-box">
                     <div className="profile-pic"> <img src={Profile} alt="" /> </div>
                     <div className="profile-name"><strong>Suresh Kumar</strong> <p>UI /UX Developer</p> </div>

@@ -143,6 +143,7 @@ p.order-box-stat {
 
   .Chart-div{
     height: 300px !important;
+    margin-top: 30px;
   }
 
   .recharts-responsive-container {
@@ -151,4 +152,51 @@ p.order-box-stat {
 
 .Doughnut-newusers{
     margin-bottom: 20px;
+}
+
+.col-sm-8 {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 64% !important;
+}
+
+.col-sm-4{
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30% !important;
+}
+
+.Chart-Row{
+  display: flex;
+    justify-content: space-around;
+}
+
+.Chart-Header{
+  margin-bottom: 20px;
+}
+
+.Chart-Dropdown{
+  background: #fafbff !important;
+  border-color: #fafbff !important;
+  color: #9C9C9C;
+  padding: 0px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.Chart-Dropdown:hover{
+  background: #fafbff !important;
+  border-color: #fafbff !important;
+  color: #9C9C9C;
+}
+
+.Chart-Dropdown:focus{
+  background: #fafbff !important;
+  border-color: #fafbff !important;
+  color: #9C9C9C;
+}
+
+.Chart-Dropdown-body{
+  height: 50px;
 }

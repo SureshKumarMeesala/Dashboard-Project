@@ -62,11 +62,13 @@ div#app {
   margin-right: 10px
 }
 
-button#dropdown-basic {
+.Sidebar-Dropdown {
   display: flex;
   width: 230px;
   justify-content: space-between;
   height: 63px;
+  background: #2d2d68 !important;
+  border-color: #2d2d68;
 }
 
 .Dropdown-profile.dropdown {
@@ -147,4 +149,14 @@ button#dropdown-basic {
 
 .menu-toggle-desk span h5 {
   color:  #ffffff !important;
+}
+
+.css-1wvake5.ps-collapsed {
+  width: 80px;
+  min-width: 80px !important  ;
+}
+
+.profile-box.ps-collapsed {
+  display: flex;
+  width: 50px !important  ;
 }

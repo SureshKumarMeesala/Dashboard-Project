@@ -1,6 +1,9 @@
 import React from 'react'
 import "../dashboard/dashboard.css";
 
+import Dropdown from 'react-bootstrap/Dropdown';
+
+
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -102,20 +105,39 @@ export default function Dashboard() {
 
 
     <Container className='Chart-div'>
-      <Row>
+      <Row className='Chart-Row'>
         <Col sm={8}>
-         <Barchart />
-        </Col>
-        <Col sm={4}><Doughnutchart></Doughnutchart></Col>
-      </Row>
-    </Container>
+          <Row className='Chart-Header'>
+            <Col>
+            <p>Overview</p>
+            <p>Monthly Earnings</p>
+            </Col>
+            <Col style={{display: "contents"}}>
+            <Dropdown className='Chart-Dropdown-body'>
+                <Dropdown.Toggle variant="success" id="dropdown-basic" className='Chart-Dropdown'>
+                  Quarterly
+                </Dropdown.Toggle>
 
-    <Container className='Chart-div'>
-      <Row>
-        <Col sm={8}>
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Quarter 1</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Quarter 2</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Quarter 3</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Quarter 4</Dropdown.Item>
+                </Dropdown.Menu>
+            </Dropdown>
+            </Col>
+          </Row>
          <Barchart />
         </Col>
-        <Col sm={4}><Doughnutchart></Doughnutchart></Col>
+        <Col sm={4}>
+        <Row className='Chart-Header'>
+            <Col>
+            <p>Customers</p>
+            <p>Custopmers that buy Products</p>
+            </Col>
+          </Row>
+          <Doughnutchart/>
+          </Col>
       </Row>
     </Container>
 

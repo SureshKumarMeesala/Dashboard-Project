@@ -1,4 +1,5 @@
 import React from 'react'
+import "../dashboard/dashboard.css";
 
 import { BarChart, Bar, ResponsiveContainer, XAxis } from 'recharts';
 
@@ -47,19 +48,20 @@ export default function Barchart() {
           name: 'July',
           uv: 3490,
           pv: 4300,
-          amt: 2100,
+          amt: 2300,
         },
         {
           name: 'Aug',
           uv: 3490,
           pv: 4300,
-          amt: 2100,
+          amt: 2900,
+          fill:"#5a32ea",
         },
         {
           name: 'Sep',
           uv: 3490,
           pv: 4300,
-          amt: 2100,
+          amt: 3000,
         },
         {
           name: 'Oct',
@@ -78,6 +80,7 @@ export default function Barchart() {
           uv: 3490,
           pv: 4300,
           amt: 2100,
+          
         },
     
       ];
@@ -89,8 +92,8 @@ export default function Barchart() {
    <>
     <ResponsiveContainer width="100%" height="100%">
         <BarChart width={150} height={100} data={bardata}>
-          <XAxis dataKey="name" />
-          <Bar dataKey="uv" fill="#8884d8" />
+          <XAxis dataKey="name" tickLine={false}  axisLine={false} dy={10}/>
+          <Bar dataKey="uv" fill="#f2efff" radius={[10, 10, 10, 10]} />
         </BarChart>
       </ResponsiveContainer>
    

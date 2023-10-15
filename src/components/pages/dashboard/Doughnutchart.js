@@ -1,39 +1,37 @@
-import React from 'react';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+import { PieChart, Pie} from 'recharts';
 
-export const data = {
-  labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-  datasets: [
-    {
-      label: '# of Votes',
-      data: [20, 15, 10],
-      backgroundColor: [
-        'rgb(241,239,252)',
-        'rgb(244,50,149)',   
-        'rgb(88,50,234)',
-      ],
-      borderColor: [
-        'rgb(241,239,252)',
-        'rgb(244,50,149)',   
-        'rgb(88,50,234)',
-      ],
-      borderWidth: [0, 30, 15],
-    },
-  ],
-};
 
 
 export default function Doughnutchart() {
 
-   
+  
+
+  const data02 = [
+    {
+      "name": "Group A",
+      "value": 2400
+    },
+    {
+      "name": "Group B",
+      "value": 4567,
+      "fill":"rgb(178,125,237) linear-gradient(90deg, rgba(178,125,237,1) 0%, rgba(9,9,121,1) 100%);",
+    },
+    {
+      "name": "Group C",
+      "value": 1398
+    },
+  ];
+      
 
   return (
     <>
     
-    <Doughnut data={data} />;
+    <PieChart width={300} height={250}>
+       <Pie data={data02} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label >
+
+       </Pie>
+    </PieChart>
     </>
   )
 }
