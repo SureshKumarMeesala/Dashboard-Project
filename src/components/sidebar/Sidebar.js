@@ -35,7 +35,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function Sidebar1() {
     const { collapseSidebar } = useProSidebar();
-    const [isDropdownOpen, setDropdownOpen] = useState(true);
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
 
     const isMobile = useMediaQuery({ maxWidth: 768 }); // Adjust the maximum width as needed
 
@@ -98,12 +98,11 @@ export default function Sidebar1() {
         )}
 
     <div className="mobile-menu">
-        <Menu className='mobile-menu-toggle'>
-            <MenuItem icon={<SpaceDashboardOutlinedIcon />} onClick={() => { collapseNavbar();}}>
-                            {" "}
-                            <h2>Dashboard</h2>
-            </MenuItem>
-        </Menu>
+       
+        <div className="mobile-header">
+          <div className="mobile-dashboard"><h2>Dashboard</h2></div>
+          <div className="mobile-toggle-new" onClick={() => { collapseNavbar();}}>&#8801;</div>
+        </div>
           {isMobile && isDropdownOpen &&   (
             <Menu>
                 <Link to="/"><MenuItem icon={<DashboardIcon />}>Dashboard</MenuItem></Link>

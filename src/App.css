@@ -117,8 +117,8 @@ div#app {
 
 
 
-@media only screen and (min-width: 600px) {
-  .mobile-menu-toggle{
+@media only screen and (min-width: 786px) {
+  .mobile-menu {
     display: none;
   }
 }
@@ -132,19 +132,21 @@ div#app {
   background-color: #040440 !important;
 }
 
+/* .ps-menu-button{
+  flex-direction: row-reverse;
+} */
+
 .ps-menu-button:hover {
-  background-color: #2d2d68 !important;
   margin: 0px 20px;
     border-radius: 5px;
-    color: #ffffff !important;
+    color: #000000 !important;
     padding-left: 0px !important;
 }
 
 .ps-menu-button:active {
-  background-color: #2d2d68 !important;
   margin: 0px 20px;
     border-radius: 5px;
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .menu-toggle-desk span h5 {
@@ -159,4 +161,34 @@ div#app {
 .profile-box.ps-collapsed {
   display: flex;
   width: 50px !important  ;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  align-items: center;
+  height: 50px;
+}
+
+.mobile-toggle-new {
+  font-size: 40px;
+}
+
+.mobile-menu {
+  background: #040440 !important;
+  padding: 20px 0px;
+  color: #ffffff;
+}
+
+span.ps-menu-label.css-12w9als {
+  color: #454874;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  color: #454874;
+}
+
+.ps-menuitem-root.menu-toggle-desk.css-1t8x7v1 svg {
+  color: #ffffff;
 }
