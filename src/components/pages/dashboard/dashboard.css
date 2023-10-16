@@ -232,3 +232,21 @@ hr.Divider {
   margin-left: -200px !important;
   border: 2px solid #f8f9fa !important;
 }
+
+.Productsell-div-min{
+
+  width: 70% !important;
+}
+
+.Productsell-div{
+
+  max-width: 10% !important;
+  text-align: center;
+  align-items: center;
+    display: grid;
+}
+
+.Product-pic img {
+  width: 60px !important;
+  margin-right: 20px;
+}

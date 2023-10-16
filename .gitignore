@@ -1,1 +1,13 @@
 node_modules
+build/logo192.png
+build/manifest.json
+*.map
+*.txt
+*.png
+*.ico
+*.webp
+*.css
+build/asset-manifest.json
+build/index.html
+build/static/js/787.f99ff9ee.chunk.js
+build/static/js/main.773bd4c7.js
