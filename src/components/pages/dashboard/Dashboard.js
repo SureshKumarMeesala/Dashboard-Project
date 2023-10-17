@@ -107,7 +107,7 @@ export default function Dashboard() {
 
     <Container className='Chart-div'>
       <Row className='Chart-Row'>
-        <Col sm={8}>
+        <Col sm={8} className='Chart-Col-b'>
           <Row className='Chart-Header'>
             <Col>
             <p className='Overview-Title'>Overview</p>
@@ -130,7 +130,7 @@ export default function Dashboard() {
           </Row>
          <Barchart />
         </Col>
-        <Col sm={4}>
+        <Col sm={4} className='Chart-Col-s'>
         <Row className='Chart-Header'>
             <Col>
             <p className='Overview-Title' >Customers</p>

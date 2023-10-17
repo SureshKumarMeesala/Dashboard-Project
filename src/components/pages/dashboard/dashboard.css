@@ -12,6 +12,7 @@
     right: 0;
     position: absolute;
     margin-right: 20px;
+    display: block !important;
 }
 
 .order-box {
@@ -165,15 +166,23 @@ p.order-box-stat {
   background: #fff;
   border-radius: 10px;
   padding: 30px;
-  width: 64% !important;
 }
 
 .col-sm-4{
   background: #fff;
   border-radius: 10px;
   padding: 30px;
-  width: 30% !important;
 }
+
+.Chart-Col-b{
+  width: 64%;
+}
+
+
+.Chart-Col-s{
+  width: 30%;
+}
+
 
 .Chart-Row{
   display: flex;
@@ -252,4 +261,86 @@ hr.Divider {
 .Product-pic img {
   width: 60px !important;
   margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Dashboard-search {
+    right: 0;
+    position: absolute;
+    margin-right: 0px;
+    display: block !important;
+    width: 50%;
+}
+
+.Chart-Col-b {
+  width: auto;
+}
+
+.Chart-Col-s {
+  width: auto;
+  margin-top: 30px;
+}
+
+.inventory-div {
+  margin-top: 530px;
+}
+
+.inventory-col {
+  
+  margin: 0px;
+
+}
+
+.Productsell-div {
+  max-width: 20% !important;
+  align-items: flex-start;
+}
+
+.profile-box {
+  display: block;
+  
+}
+
+
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .Productsell-div {
+    max-width: 15% !important;
+    
+}
+.inventory-div {
+  margin-top: 500px;
+}
+
+.Chart-Col-b {
+  width: 95%;
+  margin: 20px !important;
+}
+
+.Chart-Col-s {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.inventory-col {
+
+  margin-top: 60px;
+}
+
+.Productsell-div {
+
+  align-items: start;
+  
+}
+
+.profile-box {
+  display: block;
+}
 }

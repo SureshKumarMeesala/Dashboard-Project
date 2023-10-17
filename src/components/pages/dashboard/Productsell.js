@@ -84,8 +84,8 @@ export default function Productsell() {
                                 </Col>
 
                                 
-                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in stock</p></Col>
-                                <Col className='Productsell-div'><p className='Productsell-Side'>$ 45</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in-stock</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>$45</p></Col>
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
 
@@ -100,8 +100,8 @@ export default function Productsell() {
                                 </Col>
 
                                 
-                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in stock</p></Col>
-                                <Col className='Productsell-div'><p className='Productsell-Side'>$ 45</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in-stock</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>$45</p></Col>
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
 
@@ -116,8 +116,8 @@ export default function Productsell() {
                                 </Col>
 
                                 
-                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in stock</p></Col>
-                                <Col className='Productsell-div'><p className='Productsell-Side'>$ 45</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in-stock</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>$45</p></Col>
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
 
@@ -132,8 +132,8 @@ export default function Productsell() {
                                 </Col>
 
                                 
-                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in stock</p></Col>
-                                <Col className='Productsell-div'><p className='Productsell-Side'>$ 45</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>32 in-stock</p></Col>
+                                <Col className='Productsell-div'><p className='Productsell-Side'>$45</p></Col>
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
                 </Container>
