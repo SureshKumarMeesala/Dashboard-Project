@@ -1,7 +1,7 @@
 import React from 'react'
 import "../dashboard/dashboard.css";
 
-import Product from "../../images/products.png"
+import Product from "../../images/product.jpeg"
 
 import Dropdown from 'react-bootstrap/Dropdown';
 

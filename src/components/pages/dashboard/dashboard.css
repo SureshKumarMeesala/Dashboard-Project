@@ -261,6 +261,9 @@ hr.Divider {
 .Product-pic img {
   width: 60px !important;
   margin-right: 20px;
+  border-radius: 5px;
+  height: 50px;
+  object-fit: cover;
 }
 
 
@@ -282,9 +285,13 @@ hr.Divider {
 
 }
 
+p.Productsell-Side {
+  font-size: 15px !important;
+}
 
-
-
+.Product-sell-row{
+  margin-top: 20px;
+}
 
 
 
