@@ -148,10 +148,10 @@ div#app {
     border-radius: 5px;
     color: #000000 !important;
 }
-
+/* 
 .menu-toggle-desk span h5 {
   color:  #ffffff !important;
-}
+} */
 
 .css-1wvake5.ps-collapsed {
   width: 80px;
@@ -189,6 +189,6 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
   color: #454874;
 }
 
-.ps-menuitem-root.menu-toggle-desk.css-1t8x7v1 svg {
+/* .ps-menuitem-root.menu-toggle-desk.css-1t8x7v1 svg {
   color: #ffffff;
-}
+} */

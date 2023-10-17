@@ -8,10 +8,14 @@ import "../src/App.css"
 
 
 
+
 export default function App() {
  
   return (
+    <>
       <Sidebar1 />
+     
+      </>
   )
 }
 
