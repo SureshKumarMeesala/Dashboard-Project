@@ -264,6 +264,37 @@ hr.Divider {
 }
 
 
+.Red{
+  color: red;
+}
+
+
+.D-nut-center-text{
+  
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.D-nut-center-text::after{
+  
+  content: 'Total New Customers';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Optimization */
+
 @media only screen and (max-width: 768px) {
   .Dashboard-search {
     right: 0;
@@ -274,11 +305,11 @@ hr.Divider {
 }
 
 .Chart-Col-b {
-  width: auto;
+  width: 100% !important;
 }
 
 .Chart-Col-s {
-  width: auto;
+  width: 100% !important;
   margin-top: 30px;
 }
 
@@ -289,6 +320,7 @@ hr.Divider {
 .inventory-col {
   
   margin: 0px;
+  margin-top: 30px !important;
 
 }
 
@@ -298,16 +330,31 @@ hr.Divider {
 }
 
 .profile-box {
-  display: block;
+  display: block !important;
   
 }
 
+.Chart-Header {
+  display: block !important;
+}
+
+.Dashboard-search {
+  margin-top: -60px !important;
+  margin-right: -30px !important;
+}
+
+.Product-sell-row{
+
+  margin-top: 20px;
+}
 
 
 
 
 }
 
+
+/* Tablet Responcive  */
 
 @media (min-width: 768px) and (max-width: 1024px) {
   

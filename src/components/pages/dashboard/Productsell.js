@@ -65,7 +65,7 @@ export default function Productsell() {
           </Row>
           
                 <Container>
-                        <Row>
+                            <Row>
                                 <Col className='Productsell-div-min'><p className='Productsell-Side'>Product Name</p></Col>
                                 <Col className='Productsell-div'><p className='Productsell-Side'>Stock</p></Col>
                                 <Col className='Productsell-div'><p className='Productsell-Side'>Price</p></Col>
@@ -73,7 +73,7 @@ export default function Productsell() {
                             </Row>
 
                             <hr className='Divider'/>
-                            <Row>
+                            <Row className='Product-sell-row'>
                                  <Col className='Productsell-div-min'>
                                     <div className='Productsell-Side'>
                                         <div className="profile-box">
@@ -89,7 +89,7 @@ export default function Productsell() {
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
 
-                             <Row>
+                             <Row className='Product-sell-row'>
                                  <Col className='Productsell-div-min'>
                                     <div className='Productsell-Side'>
                                         <div className="profile-box">
@@ -105,7 +105,7 @@ export default function Productsell() {
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
 
-                             <Row>
+                             <Row className='Product-sell-row'>
                                  <Col className='Productsell-div-min'>
                                     <div className='Productsell-Side'>
                                         <div className="profile-box">
@@ -121,7 +121,7 @@ export default function Productsell() {
                                 <Col className='Productsell-div'><p className='Productsell-Side'>20</p></Col>
                              </Row>
 
-                             <Row>
+                             <Row className='Product-sell-row'>
                                  <Col className='Productsell-div-min'>
                                     <div className='Productsell-Side'>
                                         <div className="profile-box">

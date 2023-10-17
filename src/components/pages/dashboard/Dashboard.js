@@ -64,7 +64,7 @@ export default function Dashboard() {
                     <div className="order-name">
                       <p className='order-box-title'>Earning</p> 
                       <strong className='order-box-result'>$198k</strong> 
-                      <p className='order-box-stat'>&#x2191; 37.8% This Month</p> 
+                      <p className='order-box-stat'><p className='Red'>&#x2191; 37.8%</p>This Month</p> 
                     </div>
                 </div>
         </Col>
@@ -75,7 +75,7 @@ export default function Dashboard() {
                     <div className="order-name">
                       <p className='order-box-title'>Orders</p> 
                       <strong className='order-box-result'>$2.4k</strong> 
-                      <p className='order-box-stat'>&#x2193; 2% This Month</p> 
+                      <p className='order-box-stat'><p className='Red'>&#x2193; 2% </p>This Month</p> 
                     </div>
                 </div>
         </Col>
@@ -86,7 +86,7 @@ export default function Dashboard() {
                     <div className="order-name">
                       <p className='order-box-title'>Balance</p> 
                       <strong className='order-box-result'>$2.4k</strong> 
-                      <p className='order-box-stat'>&#x2193; 2% This Month</p> 
+                      <p className='order-box-stat'><p className='Red'>&#x2193; 2% </p>This Month</p> 
                     </div>
                 </div>
         </Col>
@@ -97,7 +97,7 @@ export default function Dashboard() {
                     <div className="order-name">
                       <p className='order-box-title'>Total Sales</p> 
                       <strong className='order-box-result'>$89k</strong> 
-                      <p className='order-box-stat'>&#x2191; 11% This Month</p> 
+                      <p className='order-box-stat'><p className='Red'>&#x2191; 11% </p>This Month</p> 
                     </div>
                 </div>
         </Col>
