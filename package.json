@@ -1,4 +1,6 @@
 {
+  "homepage": "https://sureshkumarmeesala.github.io/Dashboard-Project",
+
   "name": "dashboard-project",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,6 +58,7 @@
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-transform-runtime": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
-    "@babel/preset-react": "^7.22.15"
+    "@babel/preset-react": "^7.22.15",
+    "gh-pages": "^6.0.0"
   }
 }
