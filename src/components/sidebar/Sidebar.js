@@ -116,12 +116,13 @@ export default function Sidebar1() {
     </div>
 
      <Routes>
+        <Route path="/" element={<Dashboard />} />
         <Route path="/customers" element={<Customers />} />
         <Route path="/help" element={<Help />} />
         <Route path="/products" element={<Products />} />
         <Route path="/promote" element={<Promote />} />
         <Route path="/income" element={<Income />} />
-        <Route path="/" element={<Dashboard />} />
+       
 
       </Routes>
 
